@@ -4,6 +4,7 @@ import * as actions from '../actions';
 
 const initialState = {
   bookList: [],
+  categories: [],
   readingList: [],
   savedList: []
 };
