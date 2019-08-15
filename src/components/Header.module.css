@@ -10,7 +10,7 @@
     text-align: left;
     padding: 3rem 2rem;
     border-radius: .7rem .7rem 0 0;
-    background-color: #2cffa1;
+    background-color: var(--ultralight-color);
     background-size: auto, 22%;
 }
 

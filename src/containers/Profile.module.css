@@ -1,0 +1,11 @@
+.title {
+    composes: title from "../styles/typo.module.css";
+}
+.titleMini {
+    composes: titleMini from "../styles/typo.module.css";
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+}

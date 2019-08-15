@@ -1,7 +1,7 @@
 .tabBar {
     width: 100%;
     color: #fff;
-    background: #ffd02a;
+    background: var(--ultralight-color);
     position: absolute;
     bottom: 0;
     padding: 1.5rem 2rem;

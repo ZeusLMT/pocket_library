@@ -7,8 +7,11 @@ import stylesLayout from "../styles/layout.module.css";
 const Home = () => {
   return (
       <>
-        <Header title={`POCKET LIBRARY`} subtitle={`abc`} />
-        {/*<TabBar/>*/}
+        <Header title={`Home`} subtitle={`Discover new titles`} />
+        <section className={stylesLayout.content}>
+          <p>HOME PAGE</p>
+        </section>
+        <TabBar/>
       </>
   );
 };

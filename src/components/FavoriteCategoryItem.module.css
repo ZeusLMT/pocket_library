@@ -1,0 +1,12 @@
+.container {
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.12);
+}
+
+.title {
+    text-transform: capitalize;
+    color: var(--gray-dark-color);
+    font-size: 2rem;
+}
