@@ -1,0 +1,32 @@
+.title {
+    composes: title from "../styles/typo.module.css";
+}
+
+.subtitle {
+    composes:titleMini from "../styles/typo.module.css";
+}
+
+.header {
+    text-align: left;
+    padding: 3rem 2rem;
+    border-radius: .7rem .7rem 0 0;
+    background-color: #2cffa1;
+    background-size: auto, 22%;
+}
+
+.header h1 {
+    margin-bottom: 0;
+    max-width: 70%;
+    line-height: 42px;
+    letter-spacing: 1px;
+
+    /* Gradient */
+    background: linear-gradient(270deg, #01A39D 50%, #2F80ED 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.header p {
+    color: #b2b2b2;
+}
+
