@@ -16,7 +16,14 @@ const initialState = {
     new Category(`History`),
     new Category(`Comic`)
   ],
-  favoriteCategories: [],
+  favoriteCategories: [
+    new Category(`Romance`),
+    new Category(`Biography`),
+    new Category(`Horror`),
+    new Category(`Adventure`),
+    new Category(`History`)
+  ]
+  ,
   readingList: [],
   savedList: []
 };

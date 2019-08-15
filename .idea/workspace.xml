@@ -2,19 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9298216b-d9ab-42ff-a8f9-d535501ac5fd" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/CategoryItem.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/CategoryItem.module.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/containers/Favorites.module.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/containers/Profile.module.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Header.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/TabBar.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/TabBar.module.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/containers/Favorites.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/Favorites.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/containers/Home.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/Home.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/containers/Profile.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/Profile.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/store/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/styles/colors.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/colors.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/styles/layout.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/layout.module.css" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -77,7 +67,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1565886725197</updated>
-      <workItem from="1565886726572" duration="14219000" />
+      <workItem from="1565886726572" duration="14505000" />
     </task>
     <servers />
   </component>
