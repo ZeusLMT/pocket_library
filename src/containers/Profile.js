@@ -1,8 +1,11 @@
 import React from 'react';
+import TabBar from "../components/TabBar";
 
 const Profile = () => {
   return (
-      <p>Profile page</p>
+      <div className='App'>
+        <TabBar/>
+      </div>
   );
 };
 

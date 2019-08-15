@@ -1,8 +1,11 @@
 import React from 'react';
+import TabBar from "../components/TabBar";
 
 const Home = () => {
   return (
-      <p>Home page</p>
+      <div className='App'>
+        <TabBar/>
+      </div>
   );
 };
 

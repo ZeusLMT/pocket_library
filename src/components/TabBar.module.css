@@ -1,0 +1,26 @@
+.tabBar {
+    width: 100%;
+    color: #fff;
+    background: #ffd02a;
+    position: absolute;
+    bottom: 0;
+    padding: 1.5rem 2rem;
+    margin-top: 2rem;
+    border-radius: 0 0 .7rem .7rem;
+
+    display: flex;
+    justify-content: space-around;
+}
+.tabBar svg {
+    display: block;
+    max-height: 3rem;
+    margin-bottom: .5rem;
+    fill: #b2b2b2;
+}
+.tabBar a {
+    color: #b2b2b2;
+}
+.tabBar .active {
+    color: #01A39D;
+}
+.tabBar .active svg { fill: #01A39D; }
