@@ -1,0 +1,53 @@
+.title {
+    composes: title from "../styles/typo.module.css";
+    text-align: center;
+    color: var(--dark-color)
+}
+
+.author {
+    composes:titleMini from "../styles/typo.module.css";
+    text-transform: capitalize;
+    color: var(--gray-dark-color)
+}
+
+.overview {
+    font-family: 'Roboto', sans-serif;
+    font-style: italic;
+    line-height: 2rem;
+    font-size: 1.3rem;
+    color: var(--gray-color);
+    max-height: 150px;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+
+.buttonContainer {
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.checkoutButton {
+    color: var(--secondary-color);
+    font-size: 1.5rem;
+}
+
+.saveButton {
+    color: var(--primary-color);
+    font-size: 1.5rem;
+}
+
+.inList {
+    composes:titleMini from "../styles/typo.module.css";
+    text-transform: capitalize;
+    font-size: 1.5rem;
+    font-style: italic;
+    text-align: center;
+    /* Gradient */
+    background: linear-gradient(270deg, #01A39D 50%, #2F80ED 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+    margin-top: 1rem;
+}

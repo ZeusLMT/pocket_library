@@ -1,11 +1,13 @@
-.title {
-    composes: title from "../styles/typo.module.css";
-}
-.titleMini {
-    composes: titleMini from "../styles/typo.module.css";
+.categoryList {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
 }
 
-.container {
-    display: flex;
-    flex-wrap: wrap;
+.emptyCaption {
+    font-family: 'Roboto', sans-serif;
+    font-style: italic;
+    line-height: 2rem;
+    font-size: 1.3rem;
+    color: var(--gray-color);
 }

@@ -3,10 +3,12 @@
     display: flex;
     justify-content: space-between;
     border-bottom: 1px solid rgba(0, 0, 0, 0.12);
+    margin-bottom: 0.5rem;
+    margin-top: 0.5rem;
 }
 
 .title {
     text-transform: capitalize;
     color: var(--gray-dark-color);
-    font-size: 2rem;
+    font-size: 1.5rem;
 }
