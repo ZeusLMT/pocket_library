@@ -1,7 +1,8 @@
 .title {
     composes: title from "../styles/typo.module.css";
     text-align: center;
-    color: var(--dark-color)
+    color: var(--dark-color);
+    font-size: 2rem;
 }
 
 .author {
